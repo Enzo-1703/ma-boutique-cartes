@@ -77,3 +77,53 @@ footer {
 .card:hover {
   transform: scale(1.05);
 }
+/* Page contact */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #6a1b9a;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d81b60;
+}
+
+.contact-info {
+  max-width: 300px;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
